@@ -8,16 +8,29 @@
     background-color: rgb(126, 103, 126);
 }
 
-
-/* specials */
-
-.inline-block-nav{
-    display: inline-block;
-    margin-right: 20px;
+.bg-color-footer{
+    background-color: rgb(126, 103, 126);
 }
 
 
-/* heading 
+/* specials */
+
+.inline-block-nav, .inline-block-foot{
+    display: inline-block;
+}
+
+.inline-block-nav {
+    margin-right: 20px;
+}
+.inline-block-foot {
+    margin-right: 30px;
+}
+.margin-left-20 {
+    margin-left: 10%;
+}
+
+
+/* Heading 
 ----------------------- */
 
 .heading-brand{
@@ -33,4 +46,15 @@
 
 .active {
     text-decoration: overline underline;
+}
+
+.nav-item:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Footer 
+--------------------- */
+footer i{
+    color: #fafafa;
 }
