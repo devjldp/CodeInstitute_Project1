@@ -4,18 +4,18 @@
 /* colors 
 ------------------------*/
 
-.bg-color-heading{
+.bg-color-heading {
     background-color: rgb(126, 103, 126);
 }
 
-.bg-color-footer{
+.bg-color-footer {
     background-color: rgb(126, 103, 126);
 }
 
 
 /* specials */
 
-.inline-block-nav, .inline-block-foot{
+.inline-block-nav, .inline-block-foot {
     display: inline-block;
 }
 
@@ -29,9 +29,24 @@
     margin-left: 10%;
 }
 
-.work-section{
+.work-section {
     margin-top: 8%;
     margin-bottom: 8%;
+}
+
+.left-team {
+    width: 47%;
+    float:left;
+    padding:1%;
+}
+.right-team {
+    width: 47%;
+    padding: 1%;
+    float: right;
+}
+
+.clear-both {
+    clear: both;
 }
 
 /* Heading 
@@ -90,4 +105,93 @@ footer p{
 
 .four-reasons{
     text-align: center;
+}
+
+/* about us 
+----------------------------------------- */
+
+    /* creating container: background-image with opacity */
+#company{
+    clear: both;
+    position: relative;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.background-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bench-roses.jpg") center center / cover no-repeat;
+    background-attachment: scroll;
+}
+
+    /* position of the content over the image */
+.content {
+    position: relative;
+    color: #000000;
+    z-index: 1;
+}
+
+.team-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+.info-team {
+    text-align: left;
+    font-size: 110%;
+}
+
+#sarah {
+    background: url("../img/team/Sarah.png") center center/cover no-repeat;
+    float: left;
+}
+
+#emma {
+    background: url("../img/team/Emma.png") center center/cover no-repeat;
+    float: left;
+}
+
+
+
+/* medias */
+
+
+@media screen and (max-width: 768px) {
+    .team-photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    .left-team {
+        width: auto;
+        float: none;
+        padding: 1%;
+    }
+    .right-team {
+        width: auto;
+        float: none;
+        padding: 1%;
+    }
+    .info-team {
+        padding-left: 25px;
+    }
+    .left-team, .right-team {
+        margin-bottom: 10%;
+    }
 }
