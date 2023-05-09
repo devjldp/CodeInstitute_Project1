@@ -203,3 +203,18 @@ footer p{
         margin-bottom: 10%;
     }
 }
+
+
+
+.gallery-photo{
+    clear: both;
+    line-height: 0;
+    /* column-count: 4; /* The column-count property specifies the number of columns an element should be divided into. 
+    column-gap: 0; */
+}
+
+.gallery-photo img{
+    width: 100%;
+}
+
+
