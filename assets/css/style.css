@@ -11,9 +11,10 @@
 .bg-color-footer {
     background-color: rgb(126, 103, 126);
 }
+/*----------------------------------------*/
 
-
-/* specials */
+/* specials margins
+----------------------------------------*/
 
 .inline-block-nav, .inline-block-foot {
     display: inline-block;
@@ -49,6 +50,8 @@
     clear: both;
 }
 
+/*----------------------------------------*/
+
 /* Heading 
 ----------------------- */
 
@@ -71,6 +74,8 @@
     color: #000000;
     text-decoration: underline;
 }
+/*----------------------------------------*/
+
 
 /* Footer 
 --------------------- */
@@ -81,6 +86,7 @@ footer i{
 footer p{
     color: #fafafa;
 }
+/*----------------------------------------*/
 
 /* index 
 ------------------------ */
@@ -106,6 +112,7 @@ footer p{
 .four-reasons{
     text-align: center;
 }
+/*----------------------------------------*/
 
 /* about us 
 ----------------------------------------- */
@@ -165,7 +172,7 @@ footer p{
     background: url("../img/team/Emma.png") center center/cover no-repeat;
     float: left;
 }
-
+/*----------------------------------------*/
 
 
 /* medias */
