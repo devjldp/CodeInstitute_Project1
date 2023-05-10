@@ -11,6 +11,16 @@
 .bg-color-footer {
     background-color: rgb(126, 103, 126);
 }
+
+.bg-color-bronze {
+    background-color: #cb7e1f;
+}
+.bg-color-silver {
+    background-color: #c7d4da;
+}
+.bg-color-gold {
+    background-color: #f8d570;
+}
 /*----------------------------------------*/
 
 /* specials margins
@@ -46,10 +56,29 @@
     float: right;
 }
 
+#left-service{
+    float: left;
+    width: 33%;
+    padding: 1% 0 1% 3%;
+    /* margin-left: 2%; */
+}
+#right-service {
+    float: right;
+    width: 33%;
+    padding: 1% 3% 1% 0;
+    /* margin-right: 2%; */
+}
+#center-service{
+    width:33%;
+    margin: auto;
+}
+
 .clear-both {
     clear: both;
 }
-
+.hidding-p {
+    visibility: hidden;
+}
 /*----------------------------------------*/
 
 /* Heading 
@@ -67,8 +96,7 @@
 }
 
 .active {
-    text-decoration: overline underline;
-    color: rgb(187, 218, 207);
+    color: #f8d570;
 }
 
 .nav-item:hover{
@@ -173,11 +201,8 @@ footer p{
     background: url("../img/team/Emma.png") center center/cover no-repeat;
     float: left;
 }
-/*----------------------------------------*/
 
-
-/* medias */
-
+    /* -- medias --*/
 
 @media screen and (max-width: 768px) {
     .team-photo {
@@ -206,6 +231,12 @@ footer p{
 
 
 
+/*----------------------------------------*/
+
+
+/* Gallery 
+------------------------------------ */
+
 .gallery-photo{
     clear: both;
     line-height: 0;
@@ -218,3 +249,44 @@ footer p{
 }
 
 
+/* Services 
+------------------------------------ */
+
+
+.packs {
+    height: 100px;
+}
+
+#sevice-photo-container {
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+#services-photo { 
+    background: url("../img/services.jpg") center center/cover no-repeat;
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    #left-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+    #right-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+    #center-service{
+        display: none;
+    }
+    #right-service h5,
+    #left-service h5 {
+        text-align: center;
+    }
+}
