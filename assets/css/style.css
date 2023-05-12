@@ -338,12 +338,13 @@ footer p{
 .btn-form {
     border: 1px solid #000000;
     background-color: rgb(126, 103, 126);
-    color:#000000
+    color:#fafafa
 }
 
 .btn-form:hover {
-    background-color: #7c7b7b;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: rgb(90, 59, 90);
+    border: 1px solid #000000;
 }
 
 #feedback q {
