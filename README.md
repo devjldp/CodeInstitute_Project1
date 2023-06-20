@@ -18,7 +18,7 @@ Wedding: whises and dreams. This is a website project created for a fictional we
    
 The purpose of the website is to establish an online presence for the company as the main source of information for customers about the business and its services.
 
-![Mockup](documentation/responsive-design.JPG)
+![Mockup](Documentation/responsive-design.JPG)
 
   
 # User Experience
