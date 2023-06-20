@@ -124,9 +124,9 @@ All the wireframes from the design phase have been created using the following t
 # Testing
 
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.  
-![alt text](documentation/filesTest/htmlTest.JPG)
+![alt text](Documentation/filesTest/htmlTest.JPG)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
-![alt text](documentation/filesTest/cssTest.JPG)
+![alt text](Documentation/filesTest/cssTest.JPG)
 
 
 # Deployment
