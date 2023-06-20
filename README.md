@@ -128,6 +128,36 @@ All the wireframes from the design phase have been created using the following t
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
 ![alt text](Documentation/filesTest/cssTest.JPG)
 
+## User Stories Testing
+
+* Easy and intuitive navigation throughout the website. The page we are currently on is highlighted.  
+![alt text](Documentation/manualTest/menuNav.png)
+
+* Display the menu when clicking on the mobile screen size.  
+![alt text](Documentation/manualTest/menuButton.png)
+
+* Easily find the offered services and packages in a clear manner.  
+![alt text](Documentation/manualTest/servicesPacks.png)
+
+* Links to the company's social media profiles.
+![alt text](./Documentation/manualTest/socialLinks.png)
+
+* Be able to view sample images of previous works.  
+![alt text](./Documentation/manualTest/galleryResolution.png)
+
+* Validation form.
+![alt text](./Documentation/manualTest/formValidation.png)  
+![alt text](./Documentation/manualTest/emailValidation.png)
+
+* Finding location and opening hours in contact page.
+
+## Manual testing
+* Responsiveness:  
+![alt text](Documentation/manualTest/responsiveness.JPG)
+* Broser compatibility:    
+![alt text](Documentation/manualTest/browserCompatibility.JPG)
+
+
 
 # Deployment
 The site was deployed to GitHub pages. The steps taken to deploy are as follows:
@@ -141,6 +171,12 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 * The link to the live website is here: [Wedding: Wishes and Dreams](https://devjldp.github.io/CodeInstitute_Project1/)
 
 # Bugs
+The button that displays the menu on mobile size shows the menu, but it doesn't respond. The bug, which was caused by adding unnecessary Bootstrap scripts, has been fixed.  
+The menu displayed on mobile size appeared centered without alignment, displaying an untidy appearance. It has been fixed by aligning the text to the left.  
+When we are on the services page, the link is not displayed as active. The error was that the "active" class was missing.
+It is presumed that Chrome developer tools is in general not as accurate as the physical devices. In several cases what was displayed on the responsiveness testing in Chrome development tools was not exactly as appeared on actual devices so changes were always checked on actual devices for final approval.
+
+ 
 
 # Credits
 
