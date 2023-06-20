@@ -5,10 +5,12 @@
 [Introduction](#introduction)  
 [Features](#features)  
 [User Experience](#user-experience)  
-[Design of the website](#design-of-the-website)
-[Wireframes]()  
+[Design of the website](#design-of-the-website)  
+[Wireframes](#wireframes)  
 [Testing](#testing)  
-
+[Deployment](#deployment)  
+[Bugs](#bugs)  
+[Credits](#credits)  
   
 # Introduction
 
@@ -16,12 +18,12 @@ Wedding: whises and dreams. This is a website project created for a fictional we
    
 The purpose of the website is to establish an online presence for the company as the main source of information for customers about the business and its services.
 
-![Mockup](Documentation/responsive-design.JPG)
+![Mockup](documentation/responsive-design.JPG)
 
   
 # User Experience
 ## Business Goals:
-***
+
 As the owner of the wedding planning website, "Wishes and Dreams," our primary business goals are:
 
 * To provide clear and comprehensive information about our wedding planning services, including package options, pricing, and the unique benefits we offer.
@@ -30,7 +32,7 @@ As the owner of the wedding planning website, "Wishes and Dreams," our primary b
 * To establish a strong online presence, increasing brand recognition and attracting a wider audience of engaged couples seeking professional wedding planning assistance.
 
 ## User Goals:
-***
+
 As users of the "Wishes and Dreams" website, our goals are to:
 
 * Easily navigate the website and find relevant information about wedding planning services, including different planning packages, pricing details, and testimonials from satisfied couples.
@@ -40,7 +42,7 @@ As users of the "Wishes and Dreams" website, our goals are to:
 * View high-quality images that showcase previous weddings planned by our team, capturing the beauty and creativity of our work, as well as inspirational ideas for their own wedding.
   
 ## User Stories:
-***
+
   - ### As the business owner, I aim to:
 
     * Establish a strong online presence for "Wishes and Dreams" and expand our client base by reaching engaged couples seeking professional wedding planning services.
@@ -82,12 +84,65 @@ The contact form page features a simple and user-friendly design, with fields fo
 
 
 ## Fonts
-## Colors
+The next fonts has been used: 
+* Exo
+* Monserrat alternates
+* Roboto
 
+
+## Technologies used.
+
+* ### Languages Used
+  * HTML5
+  * CSS3
+
+* ### Frameworks, Libraries & Programs Used
+  * Bootstarp v5.3: Bootstrap is a powerful, feature-packed frontend toolkit.
+  * Google Fonts: was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+  * Font Awesome: was used to add icons for aesthetic and UX purposes.
+  * Git: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+  * GitHub: is used as the respository for the projects code after being pushed from Git.
+  * Microsoft Paint 3D: was used for resizing images and editing photos for the website.
+  * Balsamiq: was used to create the wireframes during the design process.
+
+
+
+
+# Wireframes
+All the wireframes from the design phase have been created using the following tool: Balsamiq Wireframes.
+* #### Landpage.
+![alt text](Documentation/Wireframes/indexWireframe.png)
+* #### Services page.
+![alt text](Documentation/Wireframes/serviceWireframe.png)
+* #### Gallery page.
+![alt text](Documentation/Wireframes/galleryWireframe.png)
+* #### About us page.
+![alt text](Documentation/Wireframes/aboutWireframe.png)
+* #### Contact page.
+![alt text](Documentation/Wireframes/contactWireframe.png)
 
 # Testing
 
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.  
-![alt text](Documentation/test/htmlTest.JPG)
+![alt text](documentation/filesTest/htmlTest.JPG)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
-![alt text](Documentation/test/cssTest.JPG)
+![alt text](documentation/filesTest/cssTest.JPG)
+
+
+# Deployment
+The site was deployed to GitHub pages. The steps taken to deploy are as follows:
+
+* Log in to [Github](https://github.com/)  
+* Navigate to [devjldp/CodeInstitute_Project1](https://github.com/devjldp/CodeInstitute_Project1) in the list of repositories.  
+* In the GitHub repository, navigate to the Settings tab.  
+* In Settings scroll down to GitHub pages which opens in a new page.
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page is automatically refreshed and a display indicates the successful deployment and the link to the address.
+* The link to the live website is here: [Wedding: Wishes and Dreams](https://devjldp.github.io/CodeInstitute_Project1/)
+
+# Bugs
+
+# Credits
+
+### Images
+All images have been downloaded from: [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/es)
