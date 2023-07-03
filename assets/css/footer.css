@@ -1,0 +1,20 @@
+
+
+.bg-color-footer {
+  background-color: rgb(126, 103, 126);
+}
+
+/* special margins */
+.inline-block-foot {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+
+footer i{
+  color: #fafafa;
+  font-size: 120%;
+}
+footer p{
+  color: #fafafa;
+}
