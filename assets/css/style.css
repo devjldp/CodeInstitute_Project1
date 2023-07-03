@@ -1,17 +1,16 @@
+/* import styles */
+
+@import './navBar.css';
+@import './footer.css';
+
+
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 
 /* colors 
 ------------------------*/
 
-.bg-color-heading {
-    background-color: rgb(126, 103, 126);
-}
-
-.bg-color-footer {
-    background-color: rgb(126, 103, 126);
-}
-
+/* services colors*/
 .bg-color-bronze {
     background-color: #cb7e1f;
 }
@@ -21,8 +20,30 @@
 .bg-color-gold {
     background-color: #f8d570;
 }
-/*----------------------------------------*/
 
+/* contact colors */
+.bg-color-f1 {
+    background-color: rgba(126, 103, 126, 0.5);
+    border: 1px solid rgb(126, 103, 126);
+    border-left: 2px solid rgb(126, 103, 126);
+}
+.bg-color-f2 {
+    background-color: rgba(126, 103, 126, 0.2);
+    border: 1px solid rgb(126, 103, 126);
+}
+.bg-color-f3 {
+    background-color: rgba(126, 103, 126, 0.5);
+    border: 1px solid rgb(126, 103, 126);
+}
+.bg-color-f4{
+    background-color: rgba(126, 103, 126, 0.2);
+    border: 1px solid rgb(126, 103, 126);
+    border-right: 2px solid rgb(126, 103, 126);
+}
+
+
+/*----------------------------------------*/
+/* fonts  */
 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -35,23 +56,13 @@ h3, h4, h5 {
 /* specials margins
 ----------------------------------------*/
 
-.inline-block-nav, .inline-block-foot {
-    display: inline-block;
-}
-
-.inline-block-nav {
-    margin-right: 20px;
-}
-.inline-block-foot {
-    margin-right: 30px;
-}
 .margin-left-20 {
     margin-left: 10%;
 }
 
 .work-section {
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .left-team {
@@ -91,61 +102,7 @@ h3, h4, h5 {
 .heading-margin {
     margin-top: 4%;
 }
-.bg-color-f1 {
-    background-color: rgba(126, 103, 126, 0.5);
-    border: 1px solid rgb(126, 103, 126);
-    border-left: 2px solid rgb(126, 103, 126);
-}
-.bg-color-f2 {
-    background-color: rgba(126, 103, 126, 0.2);
-    border: 1px solid rgb(126, 103, 126);
-}
-.bg-color-f3 {
-    background-color: rgba(126, 103, 126, 0.5);
-    border: 1px solid rgb(126, 103, 126);
-}
-.bg-color-f4{
-    background-color: rgba(126, 103, 126, 0.2);
-    border: 1px solid rgb(126, 103, 126);
-    border-right: 2px solid rgb(126, 103, 126);
-}
-/*----------------------------------------*/
 
-/* Heading 
------------------------ */
-
-.heading-brand{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 200;
-    color: #fafafa;
-}
-
-.nav-item {
-    color: #fafafa;
-    text-decoration: none;
-}
-
-.active {
-    color: #f8d570;
-}
-
-.nav-item:hover{
-    color: #000000;
-    text-decoration: underline;
-}
-/*----------------------------------------*/
-
-
-/* Footer 
---------------------- */
-footer i{
-    color: #fafafa;
-    font-size: 120%;
-}
-footer p{
-    color: #fafafa;
-}
-/*----------------------------------------*/
 
 /* index 
 ------------------------ */
@@ -159,19 +116,69 @@ footer p{
     height: 500px;
 }
 
-.work-section h2{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}
-.work-heading {
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-}
-
 .four-reasons{
     text-align: center;
 }
-/*----------------------------------------*/
+
+
+/* Gallery 
+------------------------------------ */
+
+.gallery-photo{
+    clear: both;
+    line-height: 0;
+    /* column-count: 4; /* The column-count property specifies the number of columns an element should be divided into. 
+    column-gap: 0; */
+}
+
+.gallery-photo img{
+    width: 100%;
+}
+
+/* Services 
+------------------------------------ */
+
+
+.packs {
+    height: 100px;
+}
+.packs-lists li {
+    list-style: none;
+}
+#sevice-photo-container {
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+#services-photo { 
+    background: url("../img/services.jpg") center center/cover no-repeat;
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    #left-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+    #right-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+    #center-service{
+        display: none;
+    }
+    #right-service h5,
+    #left-service h5 {
+        text-align: center;
+    }
+}
+
 
 /* about us 
 ----------------------------------------- */
@@ -260,69 +267,6 @@ footer p{
 }
 
 
-
-/*----------------------------------------*/
-
-
-/* Gallery 
------------------------------------- */
-
-.gallery-photo{
-    clear: both;
-    line-height: 0;
-    /* column-count: 4; /* The column-count property specifies the number of columns an element should be divided into. 
-    column-gap: 0; */
-}
-
-.gallery-photo img{
-    width: 100%;
-}
-
-
-/* Services 
------------------------------------- */
-
-
-.packs {
-    height: 100px;
-}
-
-#sevice-photo-container {
-    width: 300px;
-    height: 450px;
-    padding: 5px;
-    vertical-align: middle;
-    margin: 0 auto;
-}
-#services-photo { 
-    background: url("../img/services.jpg") center center/cover no-repeat;
-    height: 100%;
-    
-}
-
-@media screen and (max-width: 768px) {
-
-    #left-service {
-        width: auto;
-        float: none;
-        padding: 1% 3% 1% 3%;
-    }
-    #right-service {
-        width: auto;
-        float: none;
-        padding: 1% 3% 1% 3%;
-    }
-    #center-service{
-        display: none;
-    }
-    #right-service h5,
-    #left-service h5 {
-        text-align: center;
-    }
-}
-
-
-
 /* contact
 ---------------------------- */
 
@@ -350,4 +294,44 @@ footer p{
 #feedback q {
     padding-bottom: 20px;
 }
+.text-area {
+    text-align: center;
+}
 
+.contact-left{
+    float: left;
+    padding-left: 2%;
+    width: 50%;
+
+}
+.contact-right{
+    float: left;
+    width: 50%;
+}
+.contact-right li {
+    list-style: none;
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    .form-design{
+        width: 95%;
+        margin: 0 auto;
+    
+    }
+    .text-area{
+        margin-left:0;
+        text-align: left;
+    }
+    .contact-left{
+        float: none;
+        width: 100%;
+        padding-left: 2px;
+    
+    }
+    .contact-right{
+        float: none;
+        width: 100%;
+    }
+}
