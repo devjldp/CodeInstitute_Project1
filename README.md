@@ -124,9 +124,16 @@ All the wireframes from the design phase have been created using the following t
 # Testing
 
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.  
-![alt text](Documentation/filesTest/htmlTest.JPG)
+![alt text](Documentation/filesTest/validationHTMLIndex.PNG)
+![alt text](Documentation/filesTest/validationHTMLServices.PNG)
+![alt text](Documentation/filesTest/validationHTMLGallery.PNG)
+![alt text](Documentation/filesTest/validationHTMLAbout.PNG)
+![alt text](Documentation/filesTest/validationHTMLContact.PNG)  
+
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
-![alt text](Documentation/filesTest/cssTest.JPG)
+![alt text](Documentation/filesTest/validationFooterCSS.PNG)
+![alt text](Documentation/filesTest/validationNavBarCSS.PNG)
+![alt text](Documentation/filesTest/validationStyleCSS.PNG)
 
 ## User Stories Testing
 
@@ -157,6 +164,29 @@ All the wireframes from the design phase have been created using the following t
 * Broser compatibility:    
 ![alt text](Documentation/manualTest/browserCompatibility.JPG)
 
+## Lighthouse
+
+#### Before improvements:
+
+![alt text](Documentation/filesTest/lighthouseIndex.PNG)
+![alt text](Documentation/filesTest/lighthouseServices.PNG)
+![alt text](Documentation/filesTest/lighthouseGallery.PNG)
+![alt text](Documentation/filesTest/lighthouseContact.PNG)
+
+
+Some of the improvement I did were:
+* Adding associated labels to form element
+* Adding title to frame elements
+* Adding aria-label to links element in the footer section
+  Adding meta description to head
+
+
+#### After improvements:  
+![alt text](Documentation/filesTest/lighthouseIndex1.PNG)
+![alt text](Documentation/filesTest/lighthouseServices1.PNG)
+![alt text](Documentation/filesTest/lighthouseGallery1.PNG)
+![alt text](Documentation/filesTest/lighthouseAbout.PNG)
+![alt text](Documentation/filesTest/lighthouseContact1.PNG)
 
 
 # Deployment
@@ -171,10 +201,10 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 * The link to the live website is here: [Wedding: Wishes and Dreams](https://devjldp.github.io/CodeInstitute_Project1/)
 
 # Bugs
-The button that displays the menu on mobile size shows the menu, but it doesn't respond. The bug, which was caused by adding unnecessary Bootstrap scripts, has been fixed.  
-The menu displayed on mobile size appeared centered without alignment, displaying an untidy appearance. It has been fixed by aligning the text to the left.  
-When we are on the services page, the link is not displayed as active. The error was that the "active" class was missing.
-It is presumed that Chrome developer tools is in general not as accurate as the physical devices. In several cases what was displayed on the responsiveness testing in Chrome development tools was not exactly as appeared on actual devices so changes were always checked on actual devices for final approval.
+* The button that displays the menu on mobile size shows the menu, but it doesn't respond. The bug, which was caused by adding unnecessary Bootstrap scripts, has been fixed.  
+* The menu displayed on mobile size appeared centered without alignment, displaying an untidy appearance. It has been fixed by aligning the text to the left.  
+W* hen we are on the services page, the link is not displayed as active. The error was that the "active" class was missing.
+* It is presumed that Chrome developer tools is in general not as accurate as the physical devices. In several cases what was displayed on the responsiveness testing in Chrome development tools was not exactly as appeared on actual devices so changes were always checked on actual devices for final approval.
 
  
 
