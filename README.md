@@ -4,10 +4,11 @@
 
 [Introduction](#introduction)  
 [Features](#features)  
-[User Experience](#user-experience)  
+[User Experience](#user-experience)   
+[User Stories](#user-storie)  
 [Design of the website](#design-of-the-website)  
 [Wireframes](#wireframes)  
-[Testing](#testing)  
+[Testing](#testing) 
 [Deployment](#deployment)  
 [Bugs](#bugs)  
 [Credits](#credits)  
@@ -41,7 +42,7 @@ As users of the "Wishes and Dreams" website, our goals are to:
 * Enjoy a responsive design that adapts to different screen sizes, ensuring all information and images are easily viewable on desktops, tablets, and mobile devices.
 * View high-quality images that showcase previous weddings planned by our team, capturing the beauty and creativity of our work, as well as inspirational ideas for their own wedding.
   
-## User Stories:
+# User Stories:
 
   - ### As the business owner, I aim to:
 
