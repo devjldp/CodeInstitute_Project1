@@ -9,12 +9,17 @@
 
 /* text  */
 
-.text-brand{
+.text-brand>a{
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 200;
   color: #fafafa;
+  text-decoration: none;
 }
 
+.text-brand:hover{
+  cursor: pointer;
+  color: #fafafa;
+}
 .inline-block-nav {
   display: inline-block;
   margin-right: 20px;
