@@ -15,6 +15,10 @@ footer i{
   color: #fafafa;
   font-size: 120%;
 }
+
+footer i:hover{
+  color: #f8d570;
+}
 footer p{
   color: #fafafa;
 }
