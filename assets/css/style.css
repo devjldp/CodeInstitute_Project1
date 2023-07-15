@@ -290,6 +290,13 @@ h3, h4, h5 {
     color: rgb(90, 59, 90);
     border: 1px solid #000000;
 }
+.form-control{
+    border:  2px solid rgb(126, 103, 126);
+}
+
+.form-textarea{
+    border:  2px solid rgb(126, 103, 126);
+}
 
 #feedback q {
     padding-bottom: 20px;
