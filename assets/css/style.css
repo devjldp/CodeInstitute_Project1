@@ -4,7 +4,8 @@
 @import './footer.css';
 
 
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&family=Indie+Flower&display=swap');
+
 
 body {
     display: flex;
@@ -132,16 +133,68 @@ h3, h4, h5 {
 /* Gallery 
 ------------------------------------ */
 
-.gallery-photo{
-    clear: both;
-    line-height: 0;
-    /* column-count: 4; /* The column-count property specifies the number of columns an element should be divided into. 
-    column-gap: 0; */
+.grid-gallery{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
 }
 
-.gallery-photo img{
-    width: 100%;
+.item{
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 4/3;
 }
+
+.item-1{
+    background-image: url('../img/gallery/beach_banquet.jpg');
+}
+
+.item-2{
+    background-image: url("../img/gallery/bride_and_groom.jpg");
+}
+
+.item-3{
+    background-image: url("../img/gallery/flowers_banquet.jpg");
+}
+
+.item-4{
+    background-image: url("../img/gallery/sunset-wedding.jpg");
+}
+
+.item-5{
+    background-image: url("../img/gallery/wedding-1846114_1920.jpg");
+}
+
+.item-6{
+    background-image: url("../img/gallery/wedding-church.jpg");
+}
+
+.item-7{
+    background-image: url("../img/gallery/wedding-clasic.jpg");
+}
+
+.item-8{
+    background-image: url("../img/gallery/wedding-Forest.jpg");
+}
+
+.item-9{
+    background-image: url("../img/gallery/wedding-mask.jpg");
+}
+
+.item-10{
+    background-image: url("../img/gallery/wedding_banquet_1.jpg");
+}
+
+.item-11{
+    background-image: url("../img/gallery/wedding_pool.jpg");
+}
+
+.item-12{
+    background-image: url("../img/gallery/wedding_trainers.jpg");
+}
+
 
 /* Services 
 ------------------------------------ */
@@ -357,3 +410,5 @@ h3, h4, h5 {
 .frame {
     width: 80%;
 }
+
+
