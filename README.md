@@ -1,17 +1,4 @@
 # Wedding: Wishes and Dreams.
-# Table of contents
-
-
-[Introduction](#introduction)  
-[Features](#features)  
-[User Experience](#user-experience)   
-[User Stories](#user-storie)  
-[Design of the website](#design-of-the-website)  
-[Wireframes](#wireframes)  
-[Testing](#testing) 
-[Deployment](#deployment)  
-[Bugs](#bugs)  
-[Credits](#credits)  
   
 # Introduction
 
@@ -94,33 +81,33 @@ The next fonts has been used:
 ## Technologies used.
 
 * ### Languages Used
-  * HTML5
-  * CSS3
+  * HTML
+  * CSS
 
 * ### Frameworks, Libraries & Programs Used
-  * Bootstarp v5.3: Bootstrap is a powerful, feature-packed frontend toolkit.
-  * Google Fonts: was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
-  * Font Awesome: was used to add icons for aesthetic and UX purposes.
-  * Git: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
-  * GitHub: is used as the respository for the projects code after being pushed from Git.
+  * [Bootstrap v5.3](https://getbootstrap.com/): Bootstrap is a powerful, feature-packed frontend toolkit.
+  * [Google Fonts](https://fonts.google.com/): was used to import the 'Lato' and 'Oswald' fonts into the style.css file which are used on all pages of the project.
+  * [Font Awesome](https://fontawesome.com/): was used to add icons for aesthetic and UX purposes.
+  * [Git](https://git-scm.com/): was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+  * [GitHub](https://github.com/): is used as the respository for the projects code after being pushed from Git.
   * Microsoft Paint 3D: was used for resizing images and editing photos for the website.
-  * Balsamiq: was used to create the wireframes during the design process.
-
+  * [Balsamiq Wireframes](https://balsamiq.com/wireframes/): was used to create the wireframes during the design process.
+  * [Visual Studio Code](https://code.visualstudio.com/): was used as code editor.
 
 
 
 # Wireframes
-All the wireframes from the design phase have been created using the following tool: Balsamiq Wireframes.
+All the wireframes from the design phase have been created using the following tool: [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
 * #### Landpage.
-![alt text](Documentation/Wireframes/indexWireframe.png)
+![alt text](./documentation/wireframes/indexwireframe.png)
 * #### Services page.
-![alt text](Documentation/Wireframes/serviceWireframe.png)
+![alt text](./documentation/wireframes/servicewireframe.png)
 * #### Gallery page.
-![alt text](Documentation/Wireframes/galleryWireframe.png)
+![alt text](./documentation/wireframes/gallerywireframe.png)
 * #### About us page.
-![alt text](Documentation/Wireframes/aboutWireframe.png)
+![alt text](./documentation/wireframes/aboutwireframe.png)
 * #### Contact page.
-![alt text](Documentation/Wireframes/contactWireframe.png)
+![alt text](./documentation/wireframes/contactwireframe.png)
 
 # Testing
 
@@ -132,48 +119,44 @@ All the wireframes from the design phase have been created using the following t
 ![alt text](Documentation/filesTest/validationHTMLContact.PNG)  
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
-![alt text](Documentation/filesTest/validationFooterCSS.PNG)
-![alt text](Documentation/filesTest/validationNavBarCSS.PNG)
-![alt text](Documentation/filesTest/validationStyleCSS.PNG)
+![alt text](./documentation/filestest/validationfootercss.png)
+![alt text](./documentation/filestest/validationnavbarcss.png)
+![alt text](./documentation/filestest/validationstylecss.png)
 
 ## User Stories Testing
 
 * Easy and intuitive navigation throughout the website. The page we are currently on is highlighted.  
-![alt text](Documentation/manualTest/menuNav.png)
+![alt text](./documentation/manualtest/menuNav.png)
 
 * Display the menu when clicking on the mobile screen size.  
-![alt text](Documentation/manualTest/menuButton.png)
+![alt text](./documentation/manualtest/menuButton.png)
 
 * Easily find the offered services and packages in a clear manner.  
-![alt text](Documentation/manualTest/servicesPacks.png)
+![alt text](./documentation/manualtest/servicesPacks.png)
 
 * Links to the company's social media profiles.
-![alt text](./Documentation/manualTest/socialLinks.png)
+![alt text](./documentation/manualtest/socialLinks.png)
 
 * Be able to view sample images of previous works.  
-![alt text](./Documentation/manualTest/galleryResolution.png)
+![alt text](./documentation/manualtest/galleryResolution.png)
 
 * Validation form.
-![alt text](./Documentation/manualTest/formValidation.png)  
-![alt text](./Documentation/manualTest/emailValidation.png)
+![alt text](./documentation/manualtest/formvalidation.png)  
+![alt text](./documentation/manualtest/emailvalidation.png)
 
 * Finding location and opening hours in contact page.
 
 ## Manual testing
 * Responsiveness:  
-![alt text](Documentation/manualTest/responsiveness.JPG)
+![alt text](./documentation/manualtest/responsiveness.jpg)
 * Broser compatibility:    
-![alt text](Documentation/manualTest/browserCompatibility.JPG)
+![alt text](./documentation/manualtest/browsercompatibility.jpg)
 
 ## Lighthouse
 
 #### Before improvements:
 
-![alt text](Documentation/filesTest/lighthouseIndex.PNG)
-![alt text](Documentation/filesTest/lighthouseServices.PNG)
-![alt text](Documentation/filesTest/lighthouseGallery.PNG)
-![alt text](Documentation/filesTest/lighthouseContact.PNG)
-
+The statistics in generral were good, however some imporvements were needed.
 
 Some of the improvement I did were:
 * Adding associated labels to form element
@@ -181,13 +164,12 @@ Some of the improvement I did were:
 * Adding aria-label to links element in the footer section
   Adding meta description to head
 
-
 #### After improvements:  
-![alt text](Documentation/filesTest/lighthouseIndex1.PNG)
-![alt text](Documentation/filesTest/lighthouseServices1.PNG)
-![alt text](Documentation/filesTest/lighthouseGallery1.PNG)
-![alt text](Documentation/filesTest/lighthouseAbout.PNG)
-![alt text](Documentation/filesTest/lighthouseContact1.PNG)
+![alt text](./documentation/filestest/indexlighthouse.png)
+![alt text](./documentation/filestest/serviceslighthouse.png)
+![alt text](./documentation/filestest/gallerylighthouse.png)
+![alt text](./documentation/filestest/aboutlighthouse.png)
+![alt text](./documentation/filestest/contactlighthouse.png)
 
 
 # Deployment
@@ -211,5 +193,34 @@ W* hen we are on the services page, the link is not displayed as active. The err
 
 # Credits
 
-### Images
-All images have been downloaded from: [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/es)
+## Images
+All images have been downloaded from: [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/es).
+
+#### Index
+[Hero image](https://pixabay.com/es/photos/pareja-boda-matrimonio-nupcial-4615557/) - Pixabay by OlcayErtem
+#### Services
+[Garden wedding](https://unsplash.com/es/@jeremywongweddings) - Unsplash by Jeremy Wong Weddings
+#### Gallery
+[Beach wedding reception table](https://pixabay.com/es/photos/playa-boda-recepci%C3%B3n-1854076/) - Pixabay by Pexels.  
+[Bride and groom couple](https://pixabay.com/es/photos/novia-y-novio-pareja-boda-sentar-768594/) - Pixabay by scottwebb.  
+[Wedding reception table](https://pixabay.com/es/photos/recepci%C3%B3n-de-la-boda-1284245/) - Pixabay by Pexels.  
+[Sunset wedding](https://pixabay.com/es/photos/atardecer-boda-siluetas-matrimonio-698501/) - Pixabay by StockSnap.  
+[Event celebration table](https://pixabay.com/es/photos/evento-celebracion-6927353/) - Pixabay by Kleinheinz.  
+[Wedding pool](https://unsplash.com/es/@alvarocvg) - Unsplash by AlvaroCvG.  
+[Shoes](https://pixabay.com/es/photos/matrimonio-nupcial-boda-zapatos-636018/) - Pixabay by NGDPhotoworks.  
+[Wedding venue](https://unsplash.com/es/fotos/fJzmPe-a0eU) - Unsplash by Shardayyy Photography/  
+[Husband and wife](https://pixabay.com/es/photos/boda-pareja-matrimonio-1836315/) - Pixabay by Pexels.   
+[Classic wedding](https://pixabay.com/es/photos/boda-matrimonio-marido-esposa-2595862/) - Pixabay by StockSnap.  
+[Wedding bride asia](https://pixabay.com/es/photos/boda-novia-asia-vietnam-2784455/) - Pixabay by huynhthientu.  
+[Wedding masks](https://unsplash.com/es/s/fotos/halloween-party) - Unsplash by Jonathan Borba
+
+#### About us
+[Roses on bench](https://pixabay.com/es/photos/rosas-rosas-rosadas-flores-1463562/) - Pixabay by congerdesign.  
+[Sarah](https://pixabay.com/es/illustrations/caricatura-dise%C3%B1o-personaje-3222168/) - Pixabay by suscraft.  
+[Emma](https://pixabay.com/es/illustrations/duende-bruja-fantas%C3%ADa-6914654/) - Pixabay by missartem.  
+
+#### Response
+[Flowers](https://pixabay.com/es/illustrations/floral-marco-dise%C3%B1o-flores-7005814/) - Pixabay by Mohamed_hassan
+
+#### Web title icon
+[wedding rings](https://pixabay.com/es/illustrations/anillos-joyer%C3%ADa-boda-oro-casar-2634929/) - Pixabay by MasterTux.
