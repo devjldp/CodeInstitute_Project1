@@ -147,6 +147,7 @@ All the wireframes from the design phase have been created using the following t
 * Finding location and opening hours in contact page.
 
 ## Manual testing
+* Manual test with diferrent cases can find in the next excel file. [Manual test](./documentation/manual%20test.xlsx)  
 * Responsiveness:  
 ![alt text](./documentation/manualtest/responsiveness.jpg)
 * Broser compatibility:    
