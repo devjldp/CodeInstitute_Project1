@@ -112,11 +112,11 @@ All the wireframes from the design phase have been created using the following t
 # Testing
 
 * [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.  
-![alt text](Documentation/filesTest/validationHTMLIndex.PNG)
-![alt text](Documentation/filesTest/validationHTMLServices.PNG)
-![alt text](Documentation/filesTest/validationHTMLGallery.PNG)
-![alt text](Documentation/filesTest/validationHTMLAbout.PNG)
-![alt text](Documentation/filesTest/validationHTMLContact.PNG)  
+![alt text](./documentation/filestest/validationhtmlindex.png)
+![alt text](./documentation/filestest/validationhtmlservices.png)
+![alt text](./documentation/filestest/validationhtmlgallery.png)
+![alt text](./documentation/filestest/validationhtmlabout.png)
+![alt text](./documentation/filestest/validationhtmlcontact.png)  
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
 ![alt text](./documentation/filestest/validationfootercss.png)
