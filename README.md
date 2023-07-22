@@ -6,7 +6,7 @@ Wedding: whises and dreams. This is a website project created for a fictional we
    
 The purpose of the website is to establish an online presence for the company as the main source of information for customers about the business and its services.
 
-![Mockup](Documentation/responsive-design.JPG)
+![Mockup](./documentation/responsive-design.jpg)
 
   
 # User Experience
@@ -126,19 +126,19 @@ All the wireframes from the design phase have been created using the following t
 ## User Stories Testing
 
 * Easy and intuitive navigation throughout the website. The page we are currently on is highlighted.  
-![alt text](./documentation/manualtest/menuNav.png)
+![alt text](./documentation/manualtest/menunav.png)
 
 * Display the menu when clicking on the mobile screen size.  
-![alt text](./documentation/manualtest/menuButton.png)
+![alt text](./documentation/manualtest/menubutton.png)
 
 * Easily find the offered services and packages in a clear manner.  
-![alt text](./documentation/manualtest/servicesPacks.png)
+![alt text](./documentation/manualtest/servicespacks.png)
 
 * Links to the company's social media profiles.
-![alt text](./documentation/manualtest/socialLinks.png)
+![alt text](./documentation/manualtest/sociallinks.png)
 
 * Be able to view sample images of previous works.  
-![alt text](./documentation/manualtest/galleryResolution.png)
+![alt text](./documentation/manualtest/galleryresolution.png)
 
 * Validation form.
 ![alt text](./documentation/manualtest/formvalidation.png)  
