@@ -22,3 +22,14 @@ footer i:hover{
 footer p{
   color: #fafafa;
 }
+
+@media  screen and (min-width: 1251px) {
+  footer i{
+    font-size: 170%;
+  }
+
+  footer p{
+    font-size: 120%;
+  }
+  
+}

@@ -11,7 +11,7 @@
 
 .text-brand>a{
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   color: #fafafa;
   text-decoration: none;
 }
@@ -37,4 +37,14 @@
 .nav-item:hover{
   color: #000000;
   text-decoration: underline;
+}
+
+@media  screen and (min-width: 1251px) {
+  .nav-item{
+    font-size: 130%;
+  }
+  .text-brand>a{
+    font-size: 140%;
+  }
+
 }

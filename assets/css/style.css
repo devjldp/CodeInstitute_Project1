@@ -3,9 +3,8 @@
 @import './navBar.css';
 @import './footer.css';
 
-
+/* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;500;700&family=Indie+Flower&display=swap');
-
 
 body {
     display: flex;
@@ -16,13 +15,13 @@ body {
 main {
     flex: 1 0 auto;
 }
-/* colors 
-------------------------*/
+/* colors */
 
 /* services colors*/
 .bg-color-bronze {
     background-color: #cb7e1f;
 }
+
 .bg-color-silver {
     background-color: #c7d4da;
 }
@@ -36,34 +35,35 @@ main {
     border: 1px solid rgb(126, 103, 126);
     border-left: 2px solid rgb(126, 103, 126);
 }
+
 .bg-color-f2 {
     background-color: rgba(126, 103, 126, 0.2);
     border: 1px solid rgb(126, 103, 126);
 }
+
 .bg-color-f3 {
     background-color: rgba(126, 103, 126, 0.5);
     border: 1px solid rgb(126, 103, 126);
 }
+
 .bg-color-f4{
     background-color: rgba(126, 103, 126, 0.2);
     border: 1px solid rgb(126, 103, 126);
     border-right: 2px solid rgb(126, 103, 126);
 }
 
-
-/*----------------------------------------*/
 /* fonts  */
 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+
 h3, h4, h5 {
     font-family: "Exo",sans-serif;
     font-weight: 300;
 }
 
-/* specials margins
-----------------------------------------*/
+/* specials margins */
 
 .margin-left-20 {
     margin-left: 10%;
@@ -79,6 +79,7 @@ h3, h4, h5 {
     float:left;
     padding:1%;
 }
+
 .right-team {
     width: 47%;
     padding: 1%;
@@ -89,14 +90,14 @@ h3, h4, h5 {
     float: left;
     width: 33%;
     padding: 1% 0 1% 3%;
-    /* margin-left: 2%; */
 }
+
 #right-service {
     float: right;
     width: 33%;
     padding: 1% 3% 1% 0;
-    /* margin-right: 2%; */
 }
+
 #center-service{
     width:33%;
     margin: auto;
@@ -105,16 +106,16 @@ h3, h4, h5 {
 .clear-both {
     clear: both;
 }
+
 .hidding-p {
     visibility: hidden;
 }
+
 .heading-margin {
     margin-top: 4%;
 }
 
-
-/* index 
------------------------- */
+/* index */
 
 .index-image {
     background-image: url(../img/couple.webp);
@@ -130,8 +131,7 @@ h3, h4, h5 {
 }
 
 
-/* Gallery 
------------------------------------- */
+/* Gallery */
 
 .grid-gallery{
     display: grid;
@@ -195,56 +195,34 @@ h3, h4, h5 {
     background-image: url("../img/gallery/wedding_trainers.webp");
 }
 
-
-/* Services 
------------------------------------- */
-
+/* Services */
 
 .packs {
     height: 100px;
 }
+
 .packs-lists li {
     list-style: none;
 }
+
 #sevice-photo-container {
     width: 300px;
-    height: 450px;
+    height: 600px;
     padding: 5px;
     vertical-align: middle;
     margin: 0 auto;
 }
+
 #services-photo { 
     background: url("../img/services.webp") center center/cover no-repeat;
-    height: 100%;
+    height: 90%;
+    width: 80%
     
 }
 
-@media screen and (max-width: 768px) {
+/* about us */
 
-    #left-service {
-        width: auto;
-        float: none;
-        padding: 1% 3% 1% 3%;
-    }
-    #right-service {
-        width: auto;
-        float: none;
-        padding: 1% 3% 1% 3%;
-    }
-    #center-service{
-        display: none;
-    }
-    #right-service h5,
-    #left-service h5 {
-        text-align: center;
-    }
-}
-
-
-/* about us 
------------------------------------------ */
-
-    /* creating container: background-image with opacity */
+/* creating container: background-image with opacity */
 #company{
     clear: both;
     position: relative;
@@ -271,7 +249,7 @@ h3, h4, h5 {
     background-attachment: scroll;
 }
 
-    /* position of the content over the image */
+/* position of the content over the image */
 .content {
     position: relative;
     color: #000000;
@@ -290,6 +268,10 @@ h3, h4, h5 {
     font-size: 110%;
 }
 
+.right-team .info-team{
+    margin-right: 2%;
+}
+
 #sarah {
     background: url("../img/team/Sarah.webp") center center/cover no-repeat;
     float: left;
@@ -300,36 +282,7 @@ h3, h4, h5 {
     float: left;
 }
 
-    /* -- medias --*/
-
-@media screen and (max-width: 768px) {
-    .team-photo {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-right: 5%;
-    }
-    .left-team {
-        width: auto;
-        float: none;
-        padding: 1%;
-    }
-    .right-team {
-        width: auto;
-        float: none;
-        padding: 1%;
-    }
-    .info-team {
-        padding-left: 25px;
-    }
-    .left-team, .right-team {
-        margin-bottom: 10%;
-    }
-}
-
-
-/* contact
----------------------------- */
+/* contact */
 
 .form-container {
     margin-top: 3%;
@@ -351,6 +304,7 @@ h3, h4, h5 {
     color: rgb(90, 59, 90);
     border: 1px solid #000000;
 }
+
 .form-control{
     border:  2px solid rgb(126, 103, 126);
 }
@@ -365,6 +319,7 @@ h3, h4, h5 {
 #feedback q {
     padding-bottom: 20px;
 }
+
 .text-area {
     text-align: center;
 }
@@ -373,57 +328,34 @@ h3, h4, h5 {
     float: left;
     padding-left: 2%;
     width: 50%;
-
 }
+
 .contact-right{
     float: left;
     width: 50%;
 }
+
 .contact-right li {
     list-style: none;
     
-}
-
-
-@media screen and (max-width: 425px) {
-    .form-design{
-        width: 95%;
-        margin: 0 auto;
-    
-    }
-    .text-area{
-        margin-left:0;
-        text-align: left;
-    }
-    .contact-left{
-        float: none;
-        width: 100%;
-        padding-left: 2px;
-    
-    }
-    .contact-right{
-        float: none;
-        width: 100%;
-    }
 }
 
 .frame {
     width: 80%;
 }
 
-
 /*response.html*/
 .main-thankyou {
     width: 100%;
-    height: 70vh; /* Establece la altura del <main> para que ocupe el 100% del alto de la ventana visible (viewport height) */
-    display: flex; /* Utilizamos flexbox para centrar verticalmente el contenido del <main> si es necesario */
-    justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center; /* Centra verticalmente el contenido */
+    height: 70vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
+
 .container-thankyou{
     width: 100%;
     height: 100%;
-    /* text-align: center; */
     background-image: url('../img/floralframe.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -444,18 +376,84 @@ h3, h4, h5 {
     height: 100vh;
 }
 
-
-
-
 /* medias */
 
-@media screen and (max-width: 992px){
-    .grid-gallery{
-        grid-template: repeat(4, 1fr) / repeat(3, 1fr);
-    }
-}  
 @media screen and (max-width: 480px){
     .grid-gallery{
         grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     }
+
+    .form-design{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .text-area{
+        margin-left:0;
+        text-align: left;
+    }
+
+    .contact-left{
+        float: none;
+        width: 100%;
+        padding-left: 2px;
+    }
+
+    .contact-right{
+        float: none;
+        width: 100%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+
+    #left-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+
+    #right-service {
+        width: auto;
+        float: none;
+        padding: 1% 3% 1% 3%;
+    }
+
+    #center-service{
+        display: none;
+    }
+
+    #right-service h5,
+    #left-service h5 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .team-photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+
+    .left-team, .right-team {
+        width: auto;
+        float: none;
+        padding: 1%;
+        margin-bottom: 10%;
+    }
+
+    .info-team {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
+
+    .grid-gallery{
+        grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    }
+} 
