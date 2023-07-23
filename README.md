@@ -225,3 +225,9 @@ All images have been downloaded from: [Pixabay](https://pixabay.com/) and [Unspl
 
 #### Web title icon
 [wedding rings](https://pixabay.com/es/illustrations/anillos-joyer%C3%ADa-boda-oro-casar-2634929/) - Pixabay by MasterTux.
+
+## Code
+
+To make a sticky footer at the bottom of the page, I used the code provided for this website [Sticky footer](https://materializecss.com/footer.html)
+
+To insert the frame with gogle maps in the contact page, code provided by this website ([Maps](https://www.maps.ie/create-google-map/)) was used. Additional adjustments to the code were later made by me. 
