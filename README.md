@@ -4,7 +4,7 @@
 
 # Introduction
 
-Wedding: whises and dreams. This is a website project created for a fictional wedding planning company based in Cardiff, as part of the CodeInstitute course.
+Wedding: Whises and Dreams. This is a website project created for a fictional wedding planning company based in Cardiff, as part of the CodeInstitute course.
    
 The purpose of the website is to establish an online presence for the company as the main source of information for customers about the business and its services.
 
