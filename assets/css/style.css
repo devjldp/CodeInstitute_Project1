@@ -13,6 +13,7 @@ body {
 }
 
 main {
+    margin-top: 5%;
     flex: 1 0 auto;
 }
 /* colors */
@@ -393,20 +394,12 @@ h3, h4, h5 {
         text-align: left;
     }
 
-    .contact-left{
-        float: none;
-        width: 100%;
-        padding-left: 2px;
-    }
-
-    .contact-right{
-        float: none;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 768px) {
-
+    main{
+        margin-top: 100px;
+    } 
     #left-service {
         width: auto;
         float: none;
@@ -426,6 +419,17 @@ h3, h4, h5 {
     #right-service h5,
     #left-service h5 {
         text-align: center;
+    }
+
+    .contact-left{
+        float: none;
+        width: 100%;
+        padding-left: 2px;
+    }
+
+    .contact-right{
+        float: none;
+        width: 100%;
     }
 
 }
@@ -451,9 +455,24 @@ h3, h4, h5 {
     }
 }
 
+@media screen and (min-width: 1360px) {
+
+    main {
+        margin-top: 4%;
+    }
+
+}
+
 @media screen and (min-width: 481px) and (max-width: 1024px){
 
     .grid-gallery{
         grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    main{
+        margin-top: 6%;
     }
 } 
