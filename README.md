@@ -1,5 +1,7 @@
 # Wedding: Wishes and Dreams.
-  
+![Mockup](./documentation/responsive-design.jpg)
+### by Jose Luis Diaz Pulgar  
+
 # Introduction
 
 Wedding: whises and dreams. This is a website project created for a fictional wedding planning company based in Cardiff, as part of the CodeInstitute course.
@@ -9,9 +11,6 @@ The purpose of the website is to establish an online presence for the company as
 Wedding: wishes and dreams site is currently live, the link can be found [Here](https://devjldp.github.io/CodeInstitute_Project1/)
 
 
-![Mockup](./documentation/responsive-design.jpg)
-
-  
 # User Experience
 ### Business Goals:
 
