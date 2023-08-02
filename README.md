@@ -243,3 +243,10 @@ All images have been downloaded from: [Pixabay](https://pixabay.com/) and [Unspl
 To make a sticky footer at the bottom of the page, I used the code provided for this website [Sticky footer](https://materializecss.com/footer.html)
 
 To insert the frame with gogle maps in the contact page, code provided by this website ([Maps](https://www.maps.ie/create-google-map/)) was used. Additional adjustments to the code were later made by me. 
+
+To create a redirect I used code from [here](https://www.w3.org/TR/WCAG20-TECHS/H76.html) adapted to my website. Meta tag with http-equiv="refresh" and content="4;URL='index.html'
+
+# Acknowledgments
+
+* **Iris Smok**: Our cohort facilitator for her guidance and support throughout the course.
+* **Iuliia Konovalova**: My mentor for her advices and guidance throughout this project. You have helped me to improve.
