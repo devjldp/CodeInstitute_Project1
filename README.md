@@ -6,11 +6,14 @@ Wedding: whises and dreams. This is a website project created for a fictional we
    
 The purpose of the website is to establish an online presence for the company as the main source of information for customers about the business and its services.
 
+Wedding: wishes and dreams site is currently live, the link can be found [Here](https://devjldp.github.io/CodeInstitute_Project1/)
+
+
 ![Mockup](./documentation/responsive-design.jpg)
 
   
 # User Experience
-## Business Goals:
+### Business Goals:
 
 As the owner of the wedding planning website, "Wishes and Dreams," our primary business goals are:
 
@@ -19,7 +22,7 @@ As the owner of the wedding planning website, "Wishes and Dreams," our primary b
 * To showcase the quality and expertise of our wedding planning team, emphasizing our ability to bring couples' dreams to life and create unforgettable wedding experiences.
 * To establish a strong online presence, increasing brand recognition and attracting a wider audience of engaged couples seeking professional wedding planning assistance.
 
-## User Goals:
+### User Goals:
 
 As users of the "Wishes and Dreams" website, our goals are to:
 
@@ -55,19 +58,19 @@ As users of the "Wishes and Dreams" website, our goals are to:
 The website has been divided in 5 different pages.
 
 
-* ### Home Page.
+* ## Home Page.
 The home page features an elegant and minimalistic design, with a hero image and a call-to-action button that directs the user to the contact form. The navigation menu is placed on top of the page and is fixed to improve user experience.
 
-* ### Services.
+* ## Services.
 This page provides detailed information about the services that the company offers. It includes a description of services and packages.
 
-* ### Gallery.
+* ## Gallery.
 The photo gallery page displays a selection of photos from the company's previous wedding planning projects. The images are presented in a grid layout and can be clicked to enlarge. The page also features a search bar that allows the user to filter the photos based on specific keywords.
 
-* ### About us.
+* ## About us.
 The Meet the Team page showcases the company's team members and their roles in the wedding planning process. Each team member's profile is presented with their photo, name, and a brief description of their role. The page has a responsive design and adapts to different screen sizes.
 
-* ### Contact.
+* ## Contact.
 The contact form page features a simple and user-friendly design, with fields for name, email, phone number, and message. The form has a validation feature that ensures all fields are filled correctly before submission.
 
 
@@ -77,6 +80,12 @@ The next fonts has been used:
 * Monserrat alternates
 * Roboto
 
+## Colours:
+
+* Footer: rgb(126, 103, 126)  
+* Header: rgb(126, 103, 126)
+* Active page: #f8d570
+* Hover efect in social links: #f8d570
 
 ## Technologies used.
 
@@ -144,7 +153,11 @@ All the wireframes from the design phase have been created using the following t
 ![alt text](./documentation/manualtest/formvalidation.png)  
 ![alt text](./documentation/manualtest/emailvalidation.png)
 
-* Finding location and opening hours in contact page.
+* Be able to find the company and opening hours in contact page.
+![alt text](./documentation/manualtest/location.png)
+
+* Be able to contact with the company
+![alt text](./documentation/manualtest/contatcform.png)  
 
 ## Manual testing
 * Manual test with diferrent cases can find in the next excel file. [Manual test](./documentation/manual%20test.xlsx)  
@@ -189,8 +202,8 @@ The site was deployed to GitHub pages. The steps taken to deploy are as follows:
 * The menu displayed on mobile size appeared centered without alignment, displaying an untidy appearance. It has been fixed by aligning the text to the left.  
 W* hen we are on the services page, the link is not displayed as active. The error was that the "active" class was missing.
 * It is presumed that Chrome developer tools is in general not as accurate as the physical devices. In several cases what was displayed on the responsiveness testing in Chrome development tools was not exactly as appeared on actual devices so changes were always checked on actual devices for final approval.
+* The hover effect is missing on the social network links. It was added in the stylesheet.  
 
- 
 
 # Credits
 
